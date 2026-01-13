@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+out/
+
+# Tauri & Rust
+/src-tauri/target/
+/src-tauri/binaries/
+/src-tauri/gen/
+**/*.rs.bk
+
+# Editor/OS directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.thumbs
+Thumbs.db
+
+# Heavy Assets & Media
+*.mp4
+*.ogv
+*.webm
+*.mov
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.icns
+
+# Icons folder
+src-tauri/icons/
+
+# Lock files (for a "pure code" look)
+Cargo.lock
+package-lock.json
+
+# Dynamic Game Assets
+public/assets/games/
+public/assets/videos/
+public/assets/covers/

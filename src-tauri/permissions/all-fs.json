@@ -1,0 +1,30 @@
+{
+    "identifier": "allow-all-fs",
+    "description": "Allow all filesystem access for debugging",
+    "permissions": [
+        {
+            "identifier": "fs:allow-read-file",
+            "allow": [
+                {
+                    "path": "**/*"
+                }
+            ]
+        },
+        {
+            "identifier": "fs:allow-read-dir",
+            "allow": [
+                {
+                    "path": "**/*"
+                }
+            ]
+        },
+        {
+            "identifier": "fs:allow-fstat",
+            "allow": [
+                {
+                    "path": "**/*"
+                }
+            ]
+        }
+    ]
+}

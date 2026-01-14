@@ -1,5 +1,36 @@
 [
   {
+    "id": "pavlov_vr",
+    "name": "Pavlov VR",
+    "genre": "Шутер",
+    "players": "1-10",
+    "description": "Counter-Strike в виртуальной реальности.\n\nЗдесь всё по-настоящему: чтобы перезарядить автомат, нужно вытащить пустой магазин, вставить новый и передернуть затвор. Командные бои, закладка бомбы, реалистичная отдача и десятки видов современного оружия.\n\nЛучший выбор для любителей соревновательных шутеров.",
+    "comfort_level": "low",
+    "tags": [
+      "Активные",
+      "Кооператив",
+      "Шутеры"
+    ],
+    "cover": "/assets/games/pavlov_vr/cover.jpg",
+    "video": "/assets/games/pavlov_vr/video.mp4"
+  },
+  {
+    "id": "beat_saber",
+    "name": "Beat Saber",
+    "genre": "Ритм-игра",
+    "players": "1-5",
+    "description": "Абсолютный хит мира VR, который нравится всем без исключения.\n\nПредставьте, что у вас в руках два световых меча, а вы находитесь внутри неонового музыкального клипа. Ваша задача — разрубать летящие кубы строго в ритм музыки и уворачиваться от надвигающихся стен.\n\nЭто невероятно драйвово, зрелищно и заменяет полноценную кардио-тренировку. Идеальный выбор для первого знакомства с виртуальной реальностью.",
+    "comfort_level": "high",
+    "tags": [
+      "Активные",
+      "Детям",
+      "Музыка",
+      "Хиты"
+    ],
+    "cover": "/assets/games/beat_saber/cover.jpg",
+    "video": "/assets/games/beat_saber/video.mp4"
+  },
+  {
     "id": "job_simulator",
     "name": "Job Simulator",
     "genre": "Симулятор",
@@ -10,24 +41,8 @@
       "Детям",
       "Хиты"
     ],
-    "cover": "assets/games/job_simulator/cover.jpg",
-    "video": "assets/games/job_simulator/video.mp4"
-  },
-  {
-    "id": "beat_saber",
-    "name": "Beat Saber",
-    "genre": "Ритм-игра",
-    "players": "1",
-    "description": "Абсолютный хит мира VR, который нравится всем без исключения.\n\nПредставьте, что у вас в руках два световых меча, а вы находитесь внутри неонового музыкального клипа. Ваша задача — разрубать летящие кубы строго в ритм музыки и уворачиваться от надвигающихся стен.\n\nЭто невероятно драйвово, зрелищно и заменяет полноценную кардио-тренировку. Идеальный выбор для первого знакомства с виртуальной реальностью.",
-    "comfort_level": "high",
-    "tags": [
-      "Активные",
-      "Детям",
-      "Музыка",
-      "Хиты"
-    ],
-    "cover": "assets/games/beat_saber/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/job_simulator/cover.jpg",
+    "video": "/assets/games/job_simulator/video.mp4"
   },
   {
     "id": "superhot_vr",
@@ -41,8 +56,8 @@
       "Хиты",
       "Шутеры"
     ],
-    "cover": "assets/games/superhot_vr/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/superhot_vr/cover.jpg",
+    "video": "/assets/games/superhot_vr/video.mp4"
   },
   {
     "id": "fnaf_help_wanted",
@@ -55,23 +70,8 @@
       "Хиты",
       "Хорроры"
     ],
-    "cover": "assets/games/fnaf_help_wanted/cover.jpg",
-    "video": "true"
-  },
-  {
-    "id": "pavlov_vr",
-    "name": "Pavlov VR",
-    "genre": "Шутер",
-    "players": "1-10",
-    "description": "Counter-Strike в виртуальной реальности.\n\nЗдесь всё по-настоящему: чтобы перезарядить автомат, нужно вытащить пустой магазин, вставить новый и передернуть затвор. Командные бои, закладка бомбы, реалистичная отдача и десятки видов современного оружия.\n\nЛучший выбор для любителей соревновательных шутеров.",
-    "comfort_level": "low",
-    "tags": [
-      "Активные",
-      "Кооператив",
-      "Шутеры"
-    ],
-    "cover": "assets/games/pavlov_vr/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/fnaf_help_wanted/cover.jpg",
+    "video": "/assets/games/fnaf_help_wanted/video.mp4"
   },
   {
     "id": "phasmophobia",
@@ -84,8 +84,8 @@
       "Кооператив",
       "Хорроры"
     ],
-    "cover": "assets/games/phasmophobia/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/phasmophobia/cover.jpg",
+    "video": "/assets/games/phasmophobia/video.mp4"
   },
   {
     "id": "blade_and_sorcery",
@@ -97,23 +97,23 @@
     "tags": [
       "Активные"
     ],
-    "cover": "assets/games/blade_and_sorcery/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/blade_and_sorcery/cover.jpg",
+    "video": "/assets/games/blade_and_sorcery/video.mp4"
   },
   {
     "id": "arizona_sunshine_2",
     "name": "Arizona Sunshine 2",
     "genre": "Шутер",
-    "players": "1-2",
-    "description": "Масштабное приключение в мире постапокалипсиса.\n\nВ отличие от простых тиров, здесь есть полноценный сюжет, черный юмор и свобода перемещения. Вашим напарником станет верный пес Бадди, которому можно отдавать команды атаковать зомби.\n\nРеалистичная физика оружия, расчленение врагов и красивая графика солнечной Аризоны.",
+    "players": "1-4",
+    "description": "Масштабное приключение в мире постапокалипсиса.\n\nВ отличие от простых тиров, здесь есть полноценный сюжет, черный юмор и свобода перемещения. Вашим напарником станет верный пес Бадди, которому можно отдавать команды атаковать зомби.\n\nРеалистичная физика weapons, расчленение врагов и красивая графика солнечной Аризоны.",
     "comfort_level": "medium",
     "tags": [
       "Кооператив",
       "Хорроры",
       "Шутеры"
     ],
-    "cover": "assets/games/arizona_sunshine_2/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/arizona_sunshine_2/cover.jpg",
+    "video": "/assets/games/arizona_sunshine_2/video.mp4"
   },
   {
     "id": "elven_assassin",
@@ -127,8 +127,8 @@
       "Кооператив",
       "Шутеры"
     ],
-    "cover": "assets/games/elven_assassin/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/elven_assassin/cover.jpg",
+    "video": "/assets/games/elven_assassin/video.mp4"
   },
   {
     "id": "serious_sam_vr",
@@ -142,8 +142,8 @@
       "Кооператив",
       "Шутеры"
     ],
-    "cover": "assets/games/serious_sam_vr/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/serious_sam_vr/cover.jpg",
+    "video": "/assets/games/serious_sam_vr/video.mp4"
   },
   {
     "id": "fruit_ninja_vr",
@@ -155,8 +155,8 @@
     "tags": [
       "Детям"
     ],
-    "cover": "assets/games/fruit_ninja_vr/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/fruit_ninja_vr/cover.jpg",
+    "video": "/assets/games/fruit_ninja_vr/video.mp4"
   },
   {
     "id": "gorn_2",
@@ -168,8 +168,8 @@
     "tags": [
       "Активные"
     ],
-    "cover": "assets/games/gorn_2/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/gorn_2/cover.jpg",
+    "video": "/assets/games/gorn_2/video.mp4"
   },
   {
     "id": "after_the_fall",
@@ -183,8 +183,8 @@
       "Хорроры",
       "Шутеры"
     ],
-    "cover": "assets/games/after_the_fall/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/after_the_fall/cover.jpg",
+    "video": "/assets/games/after_the_fall/video.mp4"
   },
   {
     "id": "i_am_cat",
@@ -196,8 +196,8 @@
     "tags": [
       "Детям"
     ],
-    "cover": "assets/games/i_am_cat/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/i_am_cat/cover.jpg",
+    "video": "/assets/games/i_am_cat/video.mp4"
   },
   {
     "id": "cook_out",
@@ -210,8 +210,8 @@
       "Детям",
       "Кооператив"
     ],
-    "cover": "assets/games/cook_out/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/cook_out/cover.jpg",
+    "video": "/assets/games/cook_out/video.mp4"
   },
   {
     "id": "maestro",
@@ -224,8 +224,8 @@
       "Детям",
       "Музыка"
     ],
-    "cover": "assets/games/maestro/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/maestro/cover.jpg",
+    "video": "/assets/games/maestro/video.mp4"
   },
   {
     "id": "guns_n_stories",
@@ -239,8 +239,22 @@
       "Шутеры",
       "Хиты"
     ],
-    "cover": "assets/games/guns_n_stories/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/guns_n_stories/cover.jpg",
+    "video": "/assets/games/guns_n_stories/video.mp4"
+  },
+  {
+    "id": "vacation_simulator",
+    "name": "Vacation Simulator",
+    "genre": "Симулятор",
+    "players": "1",
+    "description": "Идеальный отпуск, который никогда не закончится.\n\nПосетите «Остров Отдыха», где роботы пытаются воссоздать человеческие развлечения. Загорайте на пляже, жарьте барбекю, лепите снеговиков в горах или делайте селфи.\n\nЗдесь нет врагов и таймеров — только релакс, интерактивность и море позитива. Подходит абсолютно всем.",
+    "comfort_level": "high",
+    "tags": [
+      "Детям",
+      "Хиты"
+    ],
+    "cover": "/assets/games/vacation_simulator/cover.jpg",
+    "video": "/assets/games/vacation_simulator/video.mp4"
   },
   {
     "id": "propagation_vr",
@@ -253,7 +267,143 @@
       "Хорроры",
       "Шутеры"
     ],
-    "cover": "assets/games/propagation_vr/cover.jpg",
-    "video": "true"
+    "cover": "/assets/games/propagation_vr/cover.jpg",
+    "video": "/assets/games/propagation_vr/video.mp4"
+  },
+  {
+    "id": "all_in_one_sports_vr",
+    "name": "All-In-One Sports VR",
+    "genre": "Спорт",
+    "players": "1-6",
+    "description": "Лучший способ попробовать 13 видов спорта, не выходя из комнаты.\n\nЗдесь есть всё: от баскетбола и боулинга до стрельбы из лука и бадминтона. Физика максимально приближена к реальности, но с упрощениями, чтобы играть было весело всем.\n\nОтличный выбор для соревнования с друзьями или легкой разминки. Попробуйте поставить новый рекорд!",
+    "comfort_level": "high",
+    "tags": [
+      "Спорт",
+      "Детям"
+    ],
+    "cover": "/assets/games/all_in_one_sports_vr/cover.jpg",
+    "video": "/assets/games/all_in_one_sports_vr/video.mp4"
+  },
+  {
+    "id": "accounting_plus",
+    "name": "Accounting+",
+    "genre": "Аркада",
+    "players": "1",
+    "description": "Самая абсурдная и смешная игра в нашей коллекции.\n\nЭто не просто бухгалтерия, а безумное путешествие по странным мирам, полным черного юмора и неожиданных поворотов. Вам предстоит кричать на персонажей, играть на костяном ксилофоне и даже предстать перед судом.\n\nЕсли вы любите «Рика и Морти», эта игра порвет вас от смеха.",
+    "comfort_level": "high",
+    "tags": [
+      "Юмор"
+    ],
+    "cover": "/assets/games/accounting_plus/cover.jpg",
+    "video": "/assets/games/accounting_plus/video.mp4"
+  },
+  {
+    "id": "bonelab",
+    "name": "BONELAB",
+    "genre": "Экшн",
+    "players": "1",
+    "description": "Революция в физике виртуальной реальности.\n\nВ этой игре вы — не просто летающая камера, а полноценное физическое тело. Вы можете карабкаться по любым поверхностям, драться с врагами врукопашную, использовать десятки видов оружия и даже менять аватары на лету, становясь то быстрым ниндзя, то огромным громилой.\n\nОгромная песочница для экспериментов и эпичных сражений.",
+    "comfort_level": "medium",
+    "tags": [
+      "Активные",
+      "Хиты"
+    ],
+    "cover": "/assets/games/bonelab/cover.jpg",
+    "video": "/assets/games/bonelab/video.mp4"
+  },
+  {
+    "id": "devour",
+    "name": "DEVOUR",
+    "genre": "Хоррор",
+    "players": "1-4",
+    "description": "Леденящий душу хоррор для компании смельчаков.\n\nВаша задача — остановить одержимого лидера культа, пока он не утащил вас в ад. Вам придется действовать сообща, прятаться, искать ритуальные предметы и постоянно оглядываться.\n\nИскусственный интеллект монстров непредсказуем, поэтому каждая игра будет уникальной и пугающей до дрожи.",
+    "comfort_level": "medium",
+    "tags": [
+      "Хорроры",
+      "Кооператив"
+    ],
+    "cover": "/assets/games/devour/cover.jpg",
+    "video": "/assets/games/devour/video.mp4"
+  },
+  {
+    "id": "hellsplit_arena",
+    "name": "Hellsplit: Arena",
+    "genre": "Экшн",
+    "players": "1",
+    "description": "Самый красивый и брутальный симулятор средневековых боев.\n\nЗдесь нет магии, только холодная сталь и ваше мастерство. Фехтование ощущается невероятно реалистично: клинки с лязгом скрещиваются, щиты трещат от ударов, а враги используют хитрые тактики.\n\nМрачная атмосфера темного фэнтези и высочайшая детализация делают каждый бой незабываемым зрелищем.",
+    "comfort_level": "low",
+    "tags": [
+      "Активные"
+    ],
+    "cover": "/assets/games/hellsplit_arena/cover.jpg",
+    "video": "/assets/games/hellsplit_arena/video.mp4"
+  },
+  {
+    "id": "loco_dojo",
+    "name": "Loco Dojo",
+    "genre": "Аркада",
+    "players": "1-4",
+    "description": "Безумная настольная игра в мире Дикого Востока.\n\nВы и ваши друзья соревнуетесь в серии забавных мини-игр: от ловли рыбы руками до доения свиней. Все это происходит на вращающемся деревянном столе под комментарии уморительного ведущего.\n\nПроигравший крутит «Колесо Судьбы». Море смеха и азарта гарантировано!",
+    "comfort_level": "high",
+    "tags": [
+      "Детям",
+      "Кооператив"
+    ],
+    "cover": "/assets/games/loco_dojo/cover.jpg",
+    "video": "/assets/games/loco_dojo/video.mp4"
+  },
+  {
+    "id": "rick_and_morty_virtual_rick_ality",
+    "name": "Rick and Morty: Virtual Rick-ality",
+    "genre": "Приключение",
+    "players": "1",
+    "description": "Официальная игра по мотивам культового мультсериала.\n\nВы — клон Морти, и ваша задача — выполнять безумные поручения Рика. Исследуйте знаменитый гараж, отправляйтесь в порталы, решайте головоломки и просто творите хаос.\n\nИгра наполнена фирменным юмором, знакомыми персонажами и множеством секретов для фанатов.",
+    "comfort_level": "high",
+    "tags": [
+      "Юмор",
+      "Хиты"
+    ],
+    "cover": "/assets/games/rick_and_morty_virtual_rick_ality/cover.jpg",
+    "video": "/assets/games/rick_and_morty_virtual_rick_ality/video.mp4"
+  },
+  {
+    "id": "trover_saves_the_universe",
+    "name": "Trover Saves the Universe",
+    "genre": "Приключение",
+    "players": "1",
+    "description": "Комедийное приключение, которое ломает четвертую стену.\n\nВы управляете Тровером — фиолетовым монстром, который постоянно болтает, шутит и жалуется на жизнь. Вместе вы должны спасти его собачек (и Вселенную заодно).\n\nИгра создана автором «Рика и Морти», так что готовьтесь к абсурдному юмору и нестандартным ситуациям.",
+    "comfort_level": "high",
+    "tags": [
+      "Юмор"
+    ],
+    "cover": "/assets/games/trover_saves_the_universe/cover.jpg",
+    "video": "/assets/games/trover_saves_the_universe/video.mp4"
+  },
+  {
+    "id": "the_thrill_of_the_fight_vr_boxing",
+    "name": "The Thrill of the Fight - VR Boxing",
+    "genre": "Спорт",
+    "players": "1",
+    "description": "Настоящий боксерский ринг в вашей комнате.\n\nЭто не просто игра, а серьезная тренировка. Здесь нет полосок здоровья или суперударов — всё зависит только от вашей скорости, реакции и выносливости. Уворачивайтесь, блокируйте удары и ищите бреши в обороне противника.\n\nПосле пары раундов вы будете мокрым, как после спортзала, но с чувством настоящей победы.",
+    "comfort_level": "high",
+    "tags": [
+      "Активные",
+      "Спорт"
+    ],
+    "cover": "/assets/games/the_thrill_of_the_fight_vr_boxing/cover.jpg",
+    "video": "/assets/games/the_thrill_of_the_fight_vr_boxing/video.mp4"
+  },
+  {
+    "id": "angry_birds_vr_isle_of_pigs",
+    "name": "Angry Birds VR: Isle of Pigs",
+    "genre": "Аркада",
+    "players": "1",
+    "description": "Знаменитые «Злые Птицы» теперь в масштабе 1 к 1.\n\nТеперь вы держите рогатку своими руками, можете обойти крепость свиней со всех сторон, найти её слабое место и запустить птицу точно в цель.\n\nБолее 100 уровней, яркая графика и знакомые герои. Эта игра затягивает моментально и детей, и взрослых.",
+    "comfort_level": "high",
+    "tags": [
+      "Детям"
+    ],
+    "cover": "/assets/games/angry_birds_vr_isle_of_pigs/cover.jpg",
+    "video": "/assets/games/angry_birds_vr_isle_of_pigs/video.mp4"
   }
 ]

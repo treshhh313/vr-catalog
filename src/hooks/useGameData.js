@@ -16,24 +16,14 @@ export function useGameData() {
 
             const data = await response.json();
 
-            // Process games and extract tags in single pass
             const allTags = new Set();
-            const processedData = data.map(game => {
-                // Collect tags
+            data.forEach(game => {
                 if (game.tags && Array.isArray(game.tags)) {
                     game.tags.forEach(tag => allTags.add(tag));
                 }
-
-                // Resolve video paths
-                if (game.video) {
-                    if (game.video === "true" || game.video === true) {
-                        return { ...game, video: `/assets/videos/${game.id}.mp4` };
-                    }
-                }
-                return game;
             });
 
-            setGames(processedData);
+            setGames(data);
             setTags(Array.from(allTags).sort());
         } catch (e) {
             console.error("Game loading error:", e.message);

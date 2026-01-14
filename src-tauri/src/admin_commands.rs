@@ -37,31 +37,33 @@ pub fn import_video(source_path: String, game_id: String) -> Result<String, Stri
         return Err("Source file does not exist".to_string());
     }
 
-    // Destination: ../public/assets/videos/{id}.mp4
-    // Simple, consistent path relative to where we run dev from.
-    let dest_dir = Path::new("../public/assets/videos");
+    // New Destination: public/assets/games/{id}/video.mp4
+    let candidates = vec![
+        "../public/assets/games",
+        "public/assets/games",
+        "../../public/assets/games",
+    ];
 
-    // Fallback if running from root
-    let root_dest = Path::new("public/assets/videos");
-
-    let final_dest_dir = if dest_dir.parent().unwrap().exists() {
-        dest_dir
-    } else {
-        root_dest
-    };
-
-    if !final_dest_dir.exists() {
-        fs::create_dir_all(final_dest_dir)
-            .map_err(|e| format!("Failed to create videos directory: {}", e))?;
+    let mut games_dir = Path::new("../public/assets/games");
+    for c in &candidates {
+        let p = Path::new(c);
+        if p.exists() {
+            games_dir = p;
+            break;
+        }
     }
 
-    let dest_filename = format!("{}.mp4", game_id);
-    let dest_path = final_dest_dir.join(&dest_filename);
+    let game_folder = games_dir.join(&game_id);
+    if !game_folder.exists() {
+        fs::create_dir_all(&game_folder)
+            .map_err(|e| format!("Failed to create game directory: {}", e))?;
+    }
+
+    let dest_path = game_folder.join("video.mp4");
 
     fs::copy(source, &dest_path).map_err(|e| format!("Failed to copy video file: {}", e))?;
 
-    // Return the web-accessible relative path
-    Ok(format!("/assets/videos/{}", dest_filename))
+    Ok(format!("assets/games/{}/video.mp4", game_id))
 }
 
 #[command]
@@ -73,34 +75,31 @@ pub fn import_image(source_path: String, game_id: String) -> Result<String, Stri
 
     let extension = source.extension().and_then(|e| e.to_str()).unwrap_or("jpg");
 
-    // Robustly find public/assets/covers
     let candidates = vec![
-        "../public/assets/covers",
-        "public/assets/covers",
-        "../../public/assets/covers",
+        "../public/assets/games",
+        "public/assets/games",
+        "../../public/assets/games",
     ];
 
-    let mut dest_dir_path = Path::new("../public/assets/covers");
+    let mut games_dir = Path::new("../public/assets/games");
     for c in &candidates {
         let p = Path::new(c);
-        // Check if 'assets' exists parent to covers
-        if let Some(parent) = p.parent() {
-            if parent.exists() {
-                dest_dir_path = p;
-                break;
-            }
+        if p.exists() {
+            games_dir = p;
+            break;
         }
     }
 
-    if !dest_dir_path.exists() {
-        fs::create_dir_all(dest_dir_path)
-            .map_err(|e| format!("Failed to create covers directory: {}", e))?;
+    let game_folder = games_dir.join(&game_id);
+    if !game_folder.exists() {
+        fs::create_dir_all(&game_folder)
+            .map_err(|e| format!("Failed to create game directory: {}", e))?;
     }
 
-    let dest_filename = format!("{}.{}", game_id, extension);
-    let dest_path = dest_dir_path.join(&dest_filename);
+    let dest_filename = format!("cover.{}", extension);
+    let dest_path = game_folder.join(&dest_filename);
 
     fs::copy(source, &dest_path).map_err(|e| format!("Failed to copy image file: {}", e))?;
 
-    Ok(format!("/assets/covers/{}", dest_filename))
+    Ok(format!("assets/games/{}/{}", game_id, dest_filename))
 }
